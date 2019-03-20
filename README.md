@@ -5,18 +5,18 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+
 npm install
 
-# serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
+可在http://localhost:8080打开网页
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+执行mongorestore -h <hostname><:port> -d dbname <path>
+添加数据库
+数据库位于dumall文件夹下
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+命令行打开server文件夹
+执行node ./bin/www
+
 # mall
